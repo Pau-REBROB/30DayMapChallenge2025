@@ -1,9 +1,0 @@
-library(sf)
-library(dplyr)
-library(ggplot2)
-
-carrils_corredors_bici <- st_read("d:/47994558K/OneDrive - Generalitat de Catalunya/30DayMapChallenge_2025/Day2/carrils_corredors_bici.geojson")  #Capa amb carrils i corredors ja unida
-districtes <- st_read(...)
-
-
-trams_carrils_corredors_bici <- st_intersection(carrils_corredors_bici, districtes)
