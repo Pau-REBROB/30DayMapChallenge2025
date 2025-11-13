@@ -7,8 +7,6 @@ library(ggplot2)
 
 # Importació del dataset d'OSM
 osm_cat_lines <- oe_read("C:/30DayMapChallenge2025/Day14_OSM/cataluna-251111.osm.pbf", layer = 'lines')
-st_transform(x = osm_cat_lines, crs = 25831)
-st_crs(x = osm_cat_lines) <- 25831
 
 
 # Filtre dels elements que continguin GR
@@ -24,7 +22,7 @@ osm_gr <- rbind(osm_gr1, osm_gr2) %>% distinct() %>% st_as_sf()
 # Visualització de les dades obtingudes
 ggplot() +
   geom_sf(data = osm_gr, show.legend = FALSE) +
-  coord_sf(datum = 25831)
+  coord_sf()
 
 
 # Creació d'una columna amb el codi de GR
@@ -44,7 +42,7 @@ osm_gr$GR <- str_extract(string = osm_gr$name,
 # Visualització de les dades
 ggplot() +
   geom_sf(data = osm_gr, aes(color = GR), show.legend = TRUE) +
-  coord_sf(datum = 25831)
+  coord_sf()
 
 
 # Unió de les geometries segons el GR
@@ -56,5 +54,16 @@ osm_gr_unit <- osm_gr %>%
   mutate(geometry = st_line_merge(geometry))
 
 
+# Canvi SRC
+osm_gr_unit <- st_transform(x = osm_gr_unit, crs = 25831)
+
+
+# Visualització
+ggplot() +
+  geom_sf(data = osm_gr_unit, aes(color = GR), show.legend = TRUE) +
+  coord_sf(datum = 25831) + 
+  geom_sf_label(data = osm_gr_unit, aes(label = GR))
+
+
 # Exportació
-write_sf(osm_gr_unit, "C:/30DayMapChallenge2025/Day14_OSM/osm_gr.geojson")
+st_write(osm_gr_unit, "C:/30DayMapChallenge2025/Day14_OSM/osm_gr.gpkg", layer = 'linies_GR')
