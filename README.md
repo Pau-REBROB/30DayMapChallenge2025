@@ -22,6 +22,7 @@ El projecte inclou cinc mapes temàtics que engloben diferents fenòmens espacia
 
 
 
+
 # 30DayMapChallenge — Spatial Data Visualization with R and QGIS
 ## Description
 This repository contains a selection of maps developed as part of the 2025 30DayMapChallenge.
