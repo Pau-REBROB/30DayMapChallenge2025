@@ -25,6 +25,7 @@ L'arxiu conté un llistat dels habitatges destinats a ús turístic, amb la seva
 
 ## Resultats  
 La visualització mostra la concentració dels habitatges turístics i el nombre de places per barris i per districtes, destacant les zones amb major presència en un mapa de calor.
+Cada punt representa un habitatge destinat a ús turístic, i la mida i el color del punt fan referència a la major o menor quantitat de places disponibles a l'habitatge.
 
 ---
 
