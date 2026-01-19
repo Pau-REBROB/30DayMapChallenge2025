@@ -18,23 +18,24 @@ L'arxiu conté un llistat dels habitatges destinats a ús turístic, amb la seva
 - QGIS per a la composició cartogràfica i simbologia  
 
 ## Procés  
-1. Importació i neteja de les dades en R  
-2. Exportació a format compatible amb QGIS  
-3. Creació del mapa temàtic a QGIS  
+1. Importació i neteja de les dades en R
+2. Agregació i exportació de les dades en R compatible amb QGIS
+3. Creació del mapa temàtic a QGIS com a mapa de punts i mapa de calor  
 4. Exportació del mapa final com a imatge
 
 ## Resultats  
-La visualització mostra la concentració dels habitatges turístics per districtes, destacant les zones amb major presència. Aquesta informació pot ser útil per a l’anàlisi urbanística i la gestió turística.
+La visualització mostra la concentració dels habitatges turístics i el nombre de places per barris i per districtes, destacant les zones amb major presència en un mapa de calor.
 
 ---
 
 Imatge del mapa final:
 
-![Mapa Habitatges Turístics]("/Projectes/Habitatges_turistics_Barcelona/Resultats/Habitatges_us_turistic_de_la_ciutat_de_Barcelona_Day1-Points.png")
+![Mapa Habitatges Turístics]("30DayMapChallenge2025/Projectes/Habitatges_turistics_Barcelona/Resultats/Habitatges_us_turistic_de_la_ciutat_de_Barcelona_Day1-Points.png")
 
 ---
 
 ## Fitxers inclosos  
+- `hut_comunicacio_opendata.csv`: font de les dades
 - `Habitatges_us_turistic_Barcelona_Day1_Points.R`: script de processament en R  
 - `Habitatges_us_turistic_de_la_ciutat_de_Barcelona_Day1-Points.png`: imatge del mapa final  
 - projecte QGIS (`habitatges_turistics.qgz`) 
