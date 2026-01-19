@@ -30,11 +30,11 @@ La visualització mostra la concentració dels habitatges turístics per distric
 
 Imatge del mapa final:
 
-![Mapa Habitatges Turístics]("/Resultats/Habitatges d'ús turístic de la ciutat de Barcelona_Day1-Points.png")
+![Mapa Habitatges Turístics]("/Resultats/Habitatges_us_turistic_de_la_ciutat_de_Barcelona_Day1-Points.png")
 
 ---
 
 ## Fitxers inclosos  
 - `Habitatges_us_turistic_Barcelona_Day1_Points.R`: script de processament en R  
-- `mapa_final.png`: imatge del mapa final  
+- `Habitatges_us_turistic_de_la_ciutat_de_Barcelona_Day1-Points.png`: imatge del mapa final  
 - projecte QGIS (`habitatges_turistics.qgz`) 
