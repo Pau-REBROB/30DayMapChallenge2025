@@ -25,9 +25,9 @@ Contenen el llistat de totes les arribades i sortides de tots els aeroports de l
 5. Obtenció de les geometries dels aeroports per unió del df amb l'objecte aeroports a través del seu codi
 6. Neteja de les dades amb canvi de nom a variables més explicatives i eliminació de registres buits
 7. Transformació a objectes de classe sf
-8. 
-9. Agregació i exportació de les dades en R compatible amb QGIS
-10. Creació del mapa temàtic a QGIS com a mapa de punts i mapa de calor  
+8. Creació de l'objecte aeroport de Barcelona i integració de les seves coordenades al df
+9. Creació dels objectes Europa i Resta de països
+10. Representació gràfica amb ggplot2
 11. Exportació del mapa final com a imatge
 
 ## Resultats  
@@ -38,7 +38,7 @@ Cada punt representa un habitatge destinat a ús turístic, i la mida i el color
 
 Imatge del mapa final:
 
-![Mapa Habitatges Turístics](../../Projectes/Habitatges_turistics_Barcelona/Resultats/Flux de viatgers des de l'aeroport de Barcelona 2024.png)
+![Mapa Vols Barcelona 2024](../../Projectes/Sortides_aeroport_Barcelona/Resultats/Flux de viatgers des de l'aeroport de Barcelona 2024.png)
 
 ---
 
