@@ -1,8 +1,12 @@
-# Habitatges d'ús turístic a Barcelona
+# Habitatges d'ús turístic de la ciutat de Barcelona
 
 ## Descripció  
 Aquest projecte analitza la distribució dels habitatges d’ús turístic a Barcelona a partir de dades obertes.  
-El tractament i la neteja de les dades es va realitzar amb **R** utilitzant paquets com `dplyr` i `sf`, mentre que la visualització final i la composició cartogràfica es va dur a terme amb **QGIS**.
+El tractament i la neteja de les dades es va realitzar amb **R**, mentre que la visualització final i la composició cartogràfica es va dur a terme amb **QGIS**.
+
+## Dades
+La font de dades es tracte d'un arxiu CSV obtingut del Servei Open Data BCN.
+L'arxiu conté un llistat dels habitatges destinats a ús turístic, amb la seva adreça i el barri i el districte al qual pertanyen, juntament amb el número de places que acullen. 
 
 ## Objectius  
 - Analitzar la distribució espacial dels habitatges turístics  
@@ -26,7 +30,7 @@ La visualització mostra la concentració dels habitatges turístics per distric
 
 Imatge del mapa final:
 
-![Mapa Habitatges Turístics](mapa_final.png)
+![Mapa Habitatges Turístics]('/Resultats/Habitatges d'ús turístic de la ciutat de Barcelona_Day1-Points.png')
 
 ---
 
