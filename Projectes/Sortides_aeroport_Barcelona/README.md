@@ -38,7 +38,7 @@ Cada punt representa un habitatge destinat a ús turístic, i la mida i el color
 
 Imatge del mapa final:
 
-![Mapa Vols Barcelona 2024](../../Projectes/Sortides_aeroport_Barcelona/Resultats/Flux de viatgers des de l'aeroport de Barcelona 2024.png)
+![Mapa Vols Barcelona 2024](../../Projectes/Sortides_aeroport_Barcelona/Resultats/Flux_viatgers_Barcelona_2024_Day10-Air.png)
 
 ---
 
