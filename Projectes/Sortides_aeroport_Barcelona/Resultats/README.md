@@ -7,3 +7,8 @@ Es pot veure com hi ha destinacions clarament preferents: els vols a Madrid i Pa
 El flux en el mapa està representat per corbes vermelles, on tant el gruix com l'opacitat representen major nombre de passatgers per a aquella destinació.
 
 Aquest mapa, a diferència de la resta, no està fet amb QGIS sinó totalment amb R i ggplot.
+
+
+# Results
+
+cdc
