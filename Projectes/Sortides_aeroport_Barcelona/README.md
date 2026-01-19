@@ -30,11 +30,10 @@ Cada punt representa un habitatge destinat a ús turístic, i la mida i el color
 
 Imatge del mapa final:
 
-![Mapa Habitatges Turístics](../../Projectes/Habitatges_turistics_Barcelona/Resultats/Habitatges_us_turistic_de_la_ciutat_de_Barcelona_Day1-Points.png)
+![Mapa Habitatges Turístics](../../Projectes/Habitatges_turistics_Barcelona/Resultats/Flux de viatgers des de l'aeroport de Barcelona 2024.png)
 
 ---
 
 ## Fitxers inclosos  
-- `hut_comunicacio_opendata.csv`: font de les dades
-- `Habitatges_us_turistic_Barcelona_Day1_Points.R`: script de processament en R  
-- `Habitatges_us_turistic_de_la_ciutat_de_Barcelona_Day1-Points.png`: imatge del mapa final  
+- `Vols_Barcelona_2024.R`: script de processament en R  
+- `Flux_viatgers_Barcelona_2024_Day10-Air.png`: imatge del mapa final  
