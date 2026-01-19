@@ -1,13 +1,6 @@
 # Dades
 
-El dia 10 del hashtag#30DayMapChallenge estava centrat en l'aire, el que em va portar a voler representar dades sobre tràfic aeri. A partir de dades oficials de la UE (Eurostat) he representat el flux de passatgers que el 2024 van sortir des de l'Aeroport d'El Prat cap als diferents països de l'espai europeu.
+Les dades d'aquest projecte han estat extretes des de l'API d'Eurostat, l'oficina d'estadística de la Unió Europea.
+[https://lnkd.in/dG3AQawV]
 
-Es pot veure com hi ha destinacions clarament preferents: els vols a Madrid i Palma de Mallorca van arribar a transportar més d'un milió de passatgers l'any passat, seguits per les destinacions europees de Roma, Amsterdam, Londres, Lisboa i París amb més de mig milió de passatgers anuals.
-
-El flux en el mapa està representat per corbes vermelles, on tant el gruix com l'opacitat representen major nombre de passatgers per a aquella destinació.
-
-Aquest mapa, a diferència de la resta, no està fet amb QGIS sinó totalment amb R i ggplot.
-
-
-Font de les dades: European Commission, Eurostat.
-"Air passenger transport routes between partner airports and main airports in Spain" - [https://lnkd.in/dG3AQawV] - last update: 22/10/2025 23:00
+El data set, anomenat "Air passenger transport routes between partner airports and main airports in Spain", està disponible sota llicència CC BY 4.0. L'última actualització en el moment de l'anàlisi de les dades va ser el 22/10/2025 23:00.
