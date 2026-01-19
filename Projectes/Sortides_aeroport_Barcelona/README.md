@@ -5,7 +5,8 @@ Aquest projecte analitza i representa les sortides des de l'aeroport de Barcelon
 Tot el procés de tractament i transformació de les dades, així com la composició cartogràfica, es va realitzar amb **R**
 
 ## Dades
-Les dades s'han obtingut a través de l'API d'Eurostat
+Les dades s'han obtingut a través de l'API d'Eurostat, dataset ".."
+
 Contenen el llistat de totes les arribades i sortides de tots els aeroports de la UE anuals i mensuals, des de l'any 2000, amb el nombre de passatgers i el nombre de vols
 
 ## Objectius  
@@ -17,10 +18,11 @@ Contenen el llistat de totes les arribades i sortides de tots els aeroports de l
 - R (`dplyr`, `sf`, `ggplot2`) per al processament i representació de dades  
 
 ## Procés  
-1. Importació i neteja de les dades en R
-2. Agregació i exportació de les dades en R compatible amb QGIS
-3. Creació del mapa temàtic a QGIS com a mapa de punts i mapa de calor  
-4. Exportació del mapa final com a imatge
+1. Importació del dataset
+2. Filtratge dels vols segons l'aeroport de Barcelona, l'any 2024, les arribades, i el valor total anual
+3. Agregació i exportació de les dades en R compatible amb QGIS
+4. Creació del mapa temàtic a QGIS com a mapa de punts i mapa de calor  
+5. Exportació del mapa final com a imatge
 
 ## Resultats  
 La visualització mostra la concentració dels habitatges turístics i el nombre de places per barris i per districtes, destacant les zones amb major presència en un mapa de calor.
