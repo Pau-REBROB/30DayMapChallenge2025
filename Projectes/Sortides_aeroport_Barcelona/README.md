@@ -1,8 +1,8 @@
-# SORTIDES DES DE L'AEROPORT DE BARCELONA
+# Sortides des de l'aeroport de Barcelona, any 2014
 
 ## Descripció  
-Aquest projecte analitza la distribució dels habitatges d’ús turístic a Barcelona a partir de dades obertes.  
-El tractament i la neteja de les dades es va realitzar amb **R**, mentre que la visualització final i la composició cartogràfica es va dur a terme amb **QGIS**.
+Aquest projecte analitza i representa les sortides des de l'aeroport de Barcelona cap a destinacions de la UE l'any 2024 a partir de dades obertes.  
+Tot el procés de tractament i transformació de les dades, així com la composició cartogràfica, es va realitzar amb **R**.
 
 ## Dades
 La font de dades es tracte d'un arxiu CSV obtingut del Servei Open Data BCN.
