@@ -19,10 +19,13 @@ Contenen el llistat de totes les arribades i sortides de tots els aeroports de l
 
 ## Procés  
 1. Importació del dataset
-2. Filtratge dels vols segons l'aeroport de Barcelona, l'any 2024, les arribades, i el valor total anual
-3. Agregació i exportació de les dades en R compatible amb QGIS
-4. Creació del mapa temàtic a QGIS com a mapa de punts i mapa de calor  
-5. Exportació del mapa final com a imatge
+2. Filtratge dels vols segons i.aeroport de Barcelona, ii.any 2024, iii.arribades, iv.valor total anual
+3. Creació d'un df amb el nombre de passatgers i un df amb el nombre de vols per a cada destí, i unió dels dos df
+4. Neteja de les dades amb canvi de nom a variables més explicatives
+5. 
+6. Agregació i exportació de les dades en R compatible amb QGIS
+7. Creació del mapa temàtic a QGIS com a mapa de punts i mapa de calor  
+8. Exportació del mapa final com a imatge
 
 ## Resultats  
 La visualització mostra la concentració dels habitatges turístics i el nombre de places per barris i per districtes, destacant les zones amb major presència en un mapa de calor.
