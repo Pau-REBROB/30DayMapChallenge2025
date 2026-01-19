@@ -11,7 +11,7 @@ L'arxiu conté un llistat dels habitatges destinats a ús turístic, amb la seva
 ## Objectius  
 - Analitzar la distribució espacial dels habitatges turístics  
 - Combinar anàlisi de dades amb programació en R i cartografia amb QGIS  
-- Desenvolupar una visualització clara i interpretativa per a la comunicació territorial
+- Desenvolupar una visualització clara i interpretativa per a la comunicació dels resultats
 
 ## Eines  
 - R (`dplyr`, `sf`) per al processament de dades  
