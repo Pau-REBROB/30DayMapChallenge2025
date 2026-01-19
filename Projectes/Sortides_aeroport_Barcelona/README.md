@@ -5,8 +5,8 @@ Aquest projecte analitza i representa les sortides des de l'aeroport de Barcelon
 Tot el procés de tractament i transformació de les dades, així com la composició cartogràfica, es va realitzar amb **R**
 
 ## Dades
-Les dades s'han obtingut a través de l'API d'Eurostat, dataset ".."
-També aeroports
+Les dades s'han obtingut a través de l'API d'Eurostat, dataset "Air passenger transport routes between partner airports and main airports in Spain"
+A través d'Eurostat també s'han obtingut arxius vectorials dels aeroports i els límits administratius
 Contenen el llistat de totes les arribades i sortides de tots els aeroports de la UE anuals i mensuals, des de l'any 2000, amb el nombre de passatgers i el nombre de vols
 
 ## Objectius  
