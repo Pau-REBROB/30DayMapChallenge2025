@@ -6,7 +6,7 @@ Tot el procés de tractament i transformació de les dades, així com la composi
 
 ## Dades
 Les dades s'han obtingut a través de l'API d'Eurostat, dataset ".."
-
+També aeroports
 Contenen el llistat de totes les arribades i sortides de tots els aeroports de la UE anuals i mensuals, des de l'any 2000, amb el nombre de passatgers i el nombre de vols
 
 ## Objectius  
@@ -21,11 +21,14 @@ Contenen el llistat de totes les arribades i sortides de tots els aeroports de l
 1. Importació del dataset
 2. Filtratge dels vols segons i.aeroport de Barcelona, ii.any 2024, iii.arribades, iv.valor total anual
 3. Creació d'un df amb el nombre de passatgers i un df amb el nombre de vols per a cada destí, i unió dels dos df
-4. Neteja de les dades amb canvi de nom a variables més explicatives
-5. 
-6. Agregació i exportació de les dades en R compatible amb QGIS
-7. Creació del mapa temàtic a QGIS com a mapa de punts i mapa de calor  
-8. Exportació del mapa final com a imatge
+4. Neteja de les dades amb canvi de nom a variables més explicatives i creació d'un atribut amb el codi dels aeroports de destí
+5. Obtenció de les geometries dels aeroports per unió del df amb l'objecte aeroports a través del seu codi
+6. Neteja de les dades amb canvi de nom a variables més explicatives i eliminació de registres buits
+7. Transformació a objectes de classe sf
+8. 
+9. Agregació i exportació de les dades en R compatible amb QGIS
+10. Creació del mapa temàtic a QGIS com a mapa de punts i mapa de calor  
+11. Exportació del mapa final com a imatge
 
 ## Resultats  
 La visualització mostra la concentració dels habitatges turístics i el nombre de places per barris i per districtes, destacant les zones amb major presència en un mapa de calor.
