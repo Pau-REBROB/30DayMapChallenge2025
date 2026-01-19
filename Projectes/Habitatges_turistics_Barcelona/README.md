@@ -31,7 +31,7 @@ Cada punt representa un habitatge destinat a ús turístic, i la mida i el color
 
 Imatge del mapa final:
 
-![Mapa Habitatges Turístics]("../Habitatges_turistics_Barcelona/Resultats/Habitatges_us_turistic_de_la_ciutat_de_Barcelona_Day1-Points.png")
+![Mapa Habitatges Turístics]("../Resultats/Habitatges_us_turistic_de_la_ciutat_de_Barcelona_Day1-Points.png")
 
 ---
 
