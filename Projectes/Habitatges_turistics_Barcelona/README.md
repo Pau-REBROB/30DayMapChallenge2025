@@ -39,4 +39,3 @@ Imatge del mapa final:
 - `hut_comunicacio_opendata.csv`: font de les dades
 - `Habitatges_us_turistic_Barcelona_Day1_Points.R`: script de processament en R  
 - `Habitatges_us_turistic_de_la_ciutat_de_Barcelona_Day1-Points.png`: imatge del mapa final  
-- projecte QGIS (`habitatges_turistics.qgz`) 
