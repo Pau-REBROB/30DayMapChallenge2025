@@ -26,8 +26,8 @@ L'arxiu, que està contingut en una carpeta que conté la sèrie temporal des de
 7. Exportació del mapa final com a imatge
 
 ## Resultats  
-*La visualització mostra la concentració dels habitatges turístics i el nombre de places per barris i per districtes, destacant les zones amb major presència en un mapa de calor.
-Cada punt representa un habitatge destinat a ús turístic, i la mida i el color del punt fan referència a la major o menor quantitat de places disponibles a l'habitatge.*
+Predomini de municipis amb menys de 5.000 habitants en tot l'interior de la península, especialment amb menys de 1.000 habitants a la meitat nord. 
+Les grans ciutats destaquen com a nuclis foscos envoltats d'ataronjats.
 
 ---
 
