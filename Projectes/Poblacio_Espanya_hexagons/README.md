@@ -22,7 +22,8 @@ L'arxiu, que està contingut en una carpeta que conté la sèrie temporal des de
 3. Transformació al sistema de referència oficial EPSG:25830
 4. Unió de les dades amb les geometries
 5. Creació de la malla hexagonal, retall segons la geometria d'Espanya i unió dels atributs
-6. Exportació del mapa final com a imatge
+6. Visualització de les dades amb `ggplot2`, creant abans els intervals de valors de població
+7. Exportació del mapa final com a imatge
 
 ## Resultats  
 *La visualització mostra la concentració dels habitatges turístics i el nombre de places per barris i per districtes, destacant les zones amb major presència en un mapa de calor.
@@ -38,6 +39,6 @@ Imatge del mapa final:
 
 ## Fitxers inclosos  
 *- `hut_comunicacio_opendata.csv`: font de les dades
-- `Habitatges_us_turistic_Barcelona_Day1_Points.R`: script de processament en R  
-- `Habitatges_us_turistic_de_la_ciutat_de_Barcelona_Day1-Points.png`: imatge del mapa final*  
+- `Poblacio_Espanya_Hexagons_Day25_Hexagons.R`: script de processament en R  
+- `Poblacio_Espanya_Day25-Hexagons.png`: imatge del mapa final*  
 
