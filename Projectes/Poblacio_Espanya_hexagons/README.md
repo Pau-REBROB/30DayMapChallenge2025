@@ -20,8 +20,8 @@ L'arxiu, que està contingut en una carpeta que conté la sèrie temporal des de
 1. Importació de les dades de població amb `readxl` i de les diferents geometries
 2. Creació dels codis municipials
 3. Transformació al sistema de referència oficial EPSG:25830
-4. Agregació i exportació de les dades en R compatible amb QGIS
-5. Creació del mapa temàtic a QGIS com a mapa de punts i mapa de calor  
+4. Unió de les dades amb les geometries
+5. Creació de la malla hexagonal, retall segons la geometria d'Espanya i unió dels atributs
 6. Exportació del mapa final com a imatge
 
 ## Resultats  
