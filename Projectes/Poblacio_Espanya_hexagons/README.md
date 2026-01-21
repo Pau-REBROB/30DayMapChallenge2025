@@ -5,7 +5,7 @@ Aquest projecte analitza la distribució de la població d'Espanya a partir de d
 Tot el procés de tractament, neteja i visualització de les dades es va realitzar amb **R**.
 
 ## Dades
-La font de dades es tracte d'un arxiu CSV obtingut del Instituto Nacional de Estadística (INE).
+La font de dades es tracte d'un arxiu Excel obtingut del Instituto Nacional de Estadística (INE).
 L'arxiu, que està contingut en una carpeta que conté la sèrie temporal des de l'any 1999, conté el llistat de municipis espanyols amb la població total i la població masculina i femenina segons el padró municipal del 2024. 
 
 ## Objectius  
@@ -38,7 +38,7 @@ Imatge del mapa final:
 ---
 
 ## Fitxers inclosos  
-*- `hut_comunicacio_opendata.csv`: font de les dades
+- `pobmun24.xlsx`: font de les dades
 - `Poblacio_Espanya_Hexagons_Day25_Hexagons.R`: script de processament en R  
-- `Poblacio_Espanya_Day25-Hexagons.png`: imatge del mapa final*  
+- `Poblacio_Espanya_Day25-Hexagons.png`: imatge del mapa final  
 
