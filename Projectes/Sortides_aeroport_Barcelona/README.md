@@ -7,7 +7,7 @@ Tot el procés de tractament i transformació de les dades, així com la composi
 ## Dades
 Les dades s'han obtingut a través de l'API d'Eurostat, dataset "Air passenger transport routes between partner airports and main airports in Spain"
 A través d'Eurostat també s'han obtingut arxius vectorials dels aeroports i els límits administratius
-Contenen el llistat de totes les arribades i sortides de tots els aeroports de la UE anuals i mensuals, des de l'any 2000, amb el nombre de passatgers i el nombre de vols
+Contenen el llistat de totes les arribades i sortides de tots els aeroports de la UE anuals i mensuals, des de l'any 1993, amb el nombre de passatgers i el nombre de vols
 
 ## Objectius  
 - Analitzar el flux de passatgers des de l'aeroport de Barcelona l'any 2024  
@@ -31,8 +31,8 @@ Contenen el llistat de totes les arribades i sortides de tots els aeroports de l
 11. Exportació del mapa final com a imatge
 
 ## Resultats  
-La visualització mostra la concentració dels habitatges turístics i el nombre de places per barris i per districtes, destacant les zones amb major presència en un mapa de calor.
-Cada punt representa un habitatge destinat a ús turístic, i la mida i el color del punt fan referència a la major o menor quantitat de places disponibles a l'habitatge.
+La visualització mostra el flux de passatgers entre Barcelona i la resta d'aeroports de l'espai europeu com a línies corbes.
+Tant el gruix com la transparència de les línies s'utilitzen d'escala per a indicar el gruix de passatgers anuals que realitzen el trajecte.
 
 ---
 
