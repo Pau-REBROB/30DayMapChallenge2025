@@ -18,16 +18,15 @@ El projecte es centra en la visualització de dades espacials i l'anàlisi espac
 - Ús de QGIS per edició, estil i composició del mapa
 - Interpretació cartogràfica
 ## Resultats
-El projecte inclou cinc mapes temàtics que engloben diferents fenòmens espacials. Cada mapa reflecteix un repte específic i unes decisions tècniques adreçades a resoldre'l.
+El projecte inclou quatre mapes temàtics que engloben diferents fenòmens espacials, englobats com a subprojectes del repositori. Cada mapa reflecteix un repte específic i unes decisions tècniques adreçades a resoldre'l.
+La resta de mapes desenvolupats al llarg del challenge estan inclosos a la secció de Mapes del repositori.
 ## Mapes desenvolupats
 El repositori inclou els següents subprojectes:
-### Habitatges d'ús turístic de la ciutat de Barcelona / Day 1 - Points
+- Habitatges d'ús turístic de la ciutat de Barcelona / Day 1 - Points
+- Flux de passatgers des de l'aeroport de Barcelona / Day 10 - Air
+- Estat dels embassaments a Catalunya / Day 20 - Water 
+- Població d'Espanya / Day 25 - Hexagons
 
-### Flux de passatgers des de l'aeroport de Barcelona / Day 10 - Air
-
-### Població d'Espanya / Day 25 - Hexagons
-
-### 
 
 
 
