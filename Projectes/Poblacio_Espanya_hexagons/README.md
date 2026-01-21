@@ -17,25 +17,25 @@ L'arxiu, que està contingut en una carpeta que conté la sèrie temporal des de
 - R (`dplyr`, `sf`, `ggplot2`) per al processament i visualització de dades  
 
 ## Procés  
-1. Importació i neteja de les dades en R
+*1. Importació i neteja de les dades en R
 2. Agregació i exportació de les dades en R compatible amb QGIS
 3. Creació del mapa temàtic a QGIS com a mapa de punts i mapa de calor  
-4. Exportació del mapa final com a imatge
+4. Exportació del mapa final com a imatge*
 
 ## Resultats  
-La visualització mostra la concentració dels habitatges turístics i el nombre de places per barris i per districtes, destacant les zones amb major presència en un mapa de calor.
-Cada punt representa un habitatge destinat a ús turístic, i la mida i el color del punt fan referència a la major o menor quantitat de places disponibles a l'habitatge.
+*La visualització mostra la concentració dels habitatges turístics i el nombre de places per barris i per districtes, destacant les zones amb major presència en un mapa de calor.
+Cada punt representa un habitatge destinat a ús turístic, i la mida i el color del punt fan referència a la major o menor quantitat de places disponibles a l'habitatge.*
 
 ---
 
 Imatge del mapa final:
 
-![Mapa Poblacio Hexgrid](../../Projectes/Poblacio_Espanya_hexagons/Resultats/_Day25-Hexagons.png)
+![Mapa Poblacio Hexgrid](../../Projectes/Poblacio_Espanya_hexagons/Resultats/Poblacio_Espanya_Day25-Hexagons.png)
 
 ---
 
 ## Fitxers inclosos  
-- `hut_comunicacio_opendata.csv`: font de les dades
+*- `hut_comunicacio_opendata.csv`: font de les dades
 - `Habitatges_us_turistic_Barcelona_Day1_Points.R`: script de processament en R  
-- `Habitatges_us_turistic_de_la_ciutat_de_Barcelona_Day1-Points.png`: imatge del mapa final  
+- `Habitatges_us_turistic_de_la_ciutat_de_Barcelona_Day1-Points.png`: imatge del mapa final*  
 
