@@ -1,15 +1,15 @@
 # 30DayMapChallenge2025
 ## Descripció
 Aquest repositori conté una selecció de mapes desenvolupats com a part del repte 30DayMapChallenge de 2025.
-El projecte es centra en la visualització de dades espacials i l'anàlisi espacial utilitzant tant QGIS com R, depenent del tipus de mapa.
+El projecte es centra en la visualització de dades espacials i l'anàlisi espacial utilitzant tant **QGIS** com **R**, depenent del tipus de mapa.
 ## Objectius
 - Explorar diferents enfocaments a la visualització de dades
-- Aplicar els principis de disseny cartogràfic
-- Practicar el processament de dades espacials utilitzant fonts de dades obertes
+- Aplicar els principis de disseny cartogràfic i oferir mapes temàtics clars i interpretatius
+- Practicar el processament de dades espacials utilitzant dades reals de fonts de dades obertes
 - Combinar metodologies de treball basades en SIG i en scripts
 ## Eines i tecnologies
 - QGIS
-- R (sf, dplyr, ggplot2)
+- R (`sf`, `dplyr`, `ggplot2`)
 - Open data (ICGC, INE, Openstreetmap, etc.)
 ## Metodologia
 - Adquisició de dades i preprocessament
@@ -19,6 +19,15 @@ El projecte es centra en la visualització de dades espacials i l'anàlisi espac
 - Interpretació cartogràfica
 ## Resultats
 El projecte inclou cinc mapes temàtics que engloben diferents fenòmens espacials. Cada mapa reflecteix un repte específic i unes decisions tècniques adreçades a resoldre'l.
+## Mapes desenvolupats
+El repositori inclou els següents subprojectes:
+### Habitatges d'ús turístic de la ciutat de Barcelona / Day 1 - Points
+
+### Flux de passatgers des de l'aeroport de Barcelona / Day 10 - Air
+
+### Població d'Espanya / Day 25 - Hexagons
+
+### 
 
 
 
