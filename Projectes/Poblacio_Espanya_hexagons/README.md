@@ -17,10 +17,12 @@ L'arxiu, que està contingut en una carpeta que conté la sèrie temporal des de
 - R (`readxl`, `dplyr`, `stringr`, `sf`, `ggplot2`) per al processament i visualització de dades  
 
 ## Procés  
-*1. Importació i neteja de les dades en R
-2. Agregació i exportació de les dades en R compatible amb QGIS
-3. Creació del mapa temàtic a QGIS com a mapa de punts i mapa de calor  
-4. Exportació del mapa final com a imatge*
+1. Importació de les dades de població amb `readxl` i de les diferents geometries
+2. Creació dels codis municipials
+3. Transformació al sistema de referència oficial EPSG:25830
+4. Agregació i exportació de les dades en R compatible amb QGIS
+5. Creació del mapa temàtic a QGIS com a mapa de punts i mapa de calor  
+6. Exportació del mapa final com a imatge
 
 ## Resultats  
 *La visualització mostra la concentració dels habitatges turístics i el nombre de places per barris i per districtes, destacant les zones amb major presència en un mapa de calor.
