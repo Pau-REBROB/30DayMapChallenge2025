@@ -14,7 +14,7 @@ L'arxiu, que està contingut en una carpeta que conté la sèrie temporal des de
 - Desenvolupar una visualització clara i interpretativa en forma de malla hexagonal (***hex grid***)
 
 ## Eines  
-- R (`dplyr`, `sf`, `ggplot2`) per al processament i visualització de dades  
+- R (`readxl`, `dplyr`, `stringr`, `sf`, `ggplot2`) per al processament i visualització de dades  
 
 ## Procés  
 *1. Importació i neteja de les dades en R
