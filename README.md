@@ -30,20 +30,18 @@ El repositori inclou els següents subprojectes:
 
 
 
-
-
 # 30DayMapChallenge — Spatial Data Visualization with R and QGIS
 ## Description
 This repository contains a selection of maps developed as part of the 2025 30DayMapChallenge.
-The project focuses on spatial data visualization and exploratory spatial analysis using both R and QGIS, depending on the nature of the task.
+The project focuses on spatial data visualization and exploratory spatial analysis using both **R** and **QGIS**, depending on the nature of the task.
 ## Objectives
 - Explore different approaches to spatial data visualization
-- Apply cartographic design principles
-- Practice spatial data processing using open data sources
+- Apply cartographic design principles, showing clear and interpretative thematic maps
+- Practice spatial data processing using real data open data sources
 - Combine scripting-based and GIS-based workflows
 ## Tools and technologies
 - QGIS
-- R (sf, dplyr, ggplot2)
+- R (`sf`, `dplyr`, `ggplot2`)
 - Open spatial data (OpenStreetMap, ICGC, INE, etc.)
 ## Workflow
 - Data acquisition and preprocessing
@@ -52,4 +50,12 @@ The project focuses on spatial data visualization and exploratory spatial analys
 - QGIS for spatial editing, styling and map composition
 - Cartographic visualization and interpretation
 ## Results
-The project includes five thematic maps covering different spatial phenomena. Each map reflects a specific visualization challenge and the technical decisions made to address it.
+The project includes four thematic maps covering different spatial phenomena, each one contained within a subproject inside the main repo. Each map reflects a specific visualization challenge and the technical decisions made to address it.
+The rest of the maps created during the challenge are included in the Maps section of the repo
+## Maps developed
+The repo include the following subprojects:
+- Habitatges d'ús turístic de la ciutat de Barcelona / Day 1 - Points
+- Flux de passatgers des de l'aeroport de Barcelona / Day 10 - Air
+- Senders GR i PR / Day 14 - OSM
+- Estat dels embassaments a Catalunya / Day 20 - Water 
+- Població d'Espanya / Day 25 - Hexagons
