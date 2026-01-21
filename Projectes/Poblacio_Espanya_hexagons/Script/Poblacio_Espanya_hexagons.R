@@ -38,8 +38,6 @@ munis_esp <- st_transform(x = munis_esp,
                           crs = 25830)
 munis_linies <- st_transform(x = munis_linies,
                              crs = 25830)
-prov_linies <- st_transform(x = prov_linies, 
-                            crs = 25830)
 
 ## Join de les dades de població amb les geometries 
 munis_esp_ine <- left_join(x = munis_esp,
