@@ -19,9 +19,6 @@ munis_esp <- st_read("C:/30DayMapChallenge2025/Day25_Hexagons/lineas_limite/SHP_
 ## Importació geometries municipis d'Espanya, només el contorn 
 munis_linies <- st_read("C:/30DayMapChallenge2025/Day25_Hexagons/lineas_limite/SHP_ETRS89/ll_municipales_inspire_peninbal_etrs89/ll_municipales_inspire_peninbal_etrs89.shp")
 
-# Importació geometries de províncies
-prov_linies <- st_read("C:/30DayMapChallenge2025/Day25_Hexagons/lineas_limite/SHP_ETRS89/ll_provinciales_inspire_peninbal_etrs89/ll_provinciales_inspire_peninbal_etrs89.shp")
-
 
 # TRANSFORMACIÓ DADES --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -47,7 +44,7 @@ prov_linies <- st_transform(x = prov_linies,
 ## Join de les dades de població amb les geometries 
 munis_esp_ine <- left_join(x = munis_esp,
                            y = dades_ine,
-                           join_by(CODIMUN == CODI)) %>%
+                           join_by(CODIMUN == CODI))
 
 ## Creació d'un objecte amb la geometria d'Espanya
 pol_esp <- munis_esp %>%
@@ -86,7 +83,6 @@ malla150_atributs$intervals <- cut(
 ## Visualització
 ggplot() + 
   geom_sf(data = malla150_atributs, aes(fill = intervals), color = 'white', linewidth = 0.2) +
-  # geom_sf(data = prov_linies, linewidth = 0.05, alpha = 0.3) +
   coord_sf(crs = 25830, datum = 25830) +
   labs(
     title = "Població d'Espanya",
@@ -96,10 +92,6 @@ ggplot() +
     fill = 'Població'
   ) +
   theme_void() +
-  # theme(
-  #   axis.title.x = element_text(size = 12, colour = 'darkgrey'),
-  #   axis.title.y = element_text(size = 12, colour = 'darkgrey')
-  # ) +
   scale_fill_viridis_d(option =  'A',
                        direction = -1,
                        na.value = 'lightgrey') +
