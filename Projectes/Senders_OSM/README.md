@@ -31,7 +31,7 @@ Durant el procés s'ha observat poca consistència en el nom dels senders.
 
 Imatge del mapa final:
 
-![GR PR OSM](../../Projectes/Senders_OSM/Resultats/AAA_Day14-OSM.png)
+![GR PR OSM](../../Projectes/Senders_OSM/Resultats/Xarxa_senders_GR_PR_Catalunya_Day14-OSM.png)
 
 ---
 
