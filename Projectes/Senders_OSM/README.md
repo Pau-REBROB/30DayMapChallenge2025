@@ -9,12 +9,12 @@ La font de dades es tracte d'un arxiu .pbf obtingut del servei de descàrregues 
 L'arxiu conté un totes les dades de Catalunya.
 
 ## Objectius  
-- Analitzar la distribució espacial dels habitatges turístics  
-- Combinar anàlisi de dades amb programació en R i cartografia amb QGIS  
+- Analitzar l'estat dels senders GR i PR a OSM  
+- Combinar preparació i anàlisi de dades amb programació en R i cartografia amb QGIS  
 - Desenvolupar una visualització clara i interpretativa per a la comunicació dels resultats
 
 ## Eines  
-- R (`dplyr`, `sf`) per al processament de dades  
+- R (`dplyr`) per al processament de dades  
 - QGIS per a la composició cartogràfica i simbologia  
 
 ## Procés  
@@ -24,8 +24,8 @@ L'arxiu conté un totes les dades de Catalunya.
 4. Exportació del mapa final com a imatge
 
 ## Resultats  
-La visualització mostra la concentració dels habitatges turístics i el nombre de places per barris i per districtes, destacant les zones amb major presència en un mapa de calor.
-Cada punt representa un habitatge destinat a ús turístic, i la mida i el color del punt fan referència a la major o menor quantitat de places disponibles a l'habitatge.
+La visualització mostra com encara hi ha molt camí per fer en la catalogació dels camins i senders com a GR i PR a Catalunya.
+Durant el procés s'ha observat poca consistència en el nom dels senders.
 
 ---
 
@@ -36,6 +36,5 @@ Imatge del mapa final:
 ---
 
 ## Fitxers inclosos  
-- `hut_comunicacio_opendata.csv`: font de les dades
-- `Habitatges_us_turistic_Barcelona_Day1_Points.R`: script de processament en R  
+- `Senders_GR_PR_Day14_OSM.R`: script de processament en R  
 - `Habitatges_us_turistic_de_la_ciutat_de_Barcelona_Day1-Points.png`: imatge del mapa final  
