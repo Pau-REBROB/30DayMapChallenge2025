@@ -37,4 +37,4 @@ Imatge del mapa final:
 
 ## Fitxers inclosos  
 - `Senders_GR_PR_Day14_OSM.R`: script de processament en R  
-- `Habitatges_us_turistic_de_la_ciutat_de_Barcelona_Day1-Points.png`: imatge del mapa final  
+- `Xarxa_senders_GR_PR_Catalunya_Day14-OSM.png`: imatge del mapa final  
