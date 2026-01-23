@@ -20,10 +20,10 @@ L'arxiu conté un totes les dades de Catalunya.
 
 ## Procés  
 1. Descompressió de les dades des de l'arxiu .pbf per obtenir totes les geometries tipus línia (`osmextract`)
-2. Filtres dels elements linials (`stringr`) per cobrir totes les possibles codificacions
-3. Importació i neteja de les dades en R
-4. Agregació i exportació de les dades en R compatible amb QGIS
-5. Creació del mapa temàtic a QGIS com a mapa de punts i mapa de calor  
+2. Filtres dels elements linials (`stringr`) per cobrir totes les possibles codificacions, tant de GR com de PR
+3. Creació d'una columna amb el codi GR/PR de manera unificada (`stringr`) a partir del nom codificat a OSM
+4. Exportació de les dades en R compatible amb QGIS
+5. Creació del mapa temàtic a QGIS com a mapa de línies codificades per tipus de sender
 6. Exportació del mapa final com a imatge
 
 ## Resultats  
