@@ -1,3 +1,5 @@
+# PAQUETS ---------------------------------------------------------------------------------------------------------------------------------------------
+
 library(dplyr)
 library(stringr)
 library(osmextract)
@@ -5,9 +7,13 @@ library(sf)
 library(ggplot2)
 
 
+# ADQUISICIÓ DE DADES --------------------------------------------------------------------------------------------------------------------------------
+
 # Importació del dataset d'OSM
 osm_cat_lines <- oe_read("C:/30DayMapChallenge2025/Day14_OSM/cataluna-251111.osm.pbf", layer = 'lines')
 
+
+# TRANSFORMACIÓ DE LES DADES -------------------------------------------------------------------------------------------------------------------------
 
 # Filtre dels elements que continguin GR
 # Fent un cop d'ull a les dades, existeixen bastantes diferències en l'etiquetatge de GR
@@ -92,7 +98,7 @@ osm_gr_unit <- st_transform(x = osm_gr_unit, crs = 25831)
 osm_pr_unit <- st_transform(x = osm_pr_unit, crs = 25831)
 
 
-# Visualització
+# VISUALITZACIÓ --------------------------------------------------------------------------------------------------------------------------------
 ggplot() +
   geom_sf(data = osm_gr_unit, aes(color = GR), show.legend = FALSE) +
   geom_sf(data = osm_pr_unit, aes(color = PR), show.legend = FALSE) +
@@ -104,3 +110,4 @@ ggplot() +
 # Exportació
 st_write(osm_gr_unit, "C:/30DayMapChallenge2025/Day14_OSM/osm_gr.gpkg", layer = 'linies_GR', append = FALSE)
 st_write(osm_pr_unit, "C:/30DayMapChallenge2025/Day14_OSM/osm_pr.gpkg", layer = 'linies_PR', append = FALSE)
+
