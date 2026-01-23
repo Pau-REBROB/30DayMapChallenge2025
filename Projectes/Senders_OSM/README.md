@@ -14,14 +14,17 @@ L'arxiu conté un totes les dades de Catalunya.
 - Desenvolupar una visualització clara i interpretativa per a la comunicació dels resultats
 
 ## Eines  
-- R (`dplyr`) per al processament de dades  
+- R (`osmextract`) per a l'ús de les dades
+- R (`dplyr`, `sf`, 'stringr`) per al processament de dades  
 - QGIS per a la composició cartogràfica i simbologia  
 
 ## Procés  
-1. Importació i neteja de les dades en R
-2. Agregació i exportació de les dades en R compatible amb QGIS
-3. Creació del mapa temàtic a QGIS com a mapa de punts i mapa de calor  
-4. Exportació del mapa final com a imatge
+1. Descompressió de les dades des de l'arxiu .pbf per obtenir totes les geometries tipus línia (`osmextract`)
+2. Filtres dels elements linials (`stringr`) per cobrir totes les possibles codificacions
+3. Importació i neteja de les dades en R
+4. Agregació i exportació de les dades en R compatible amb QGIS
+5. Creació del mapa temàtic a QGIS com a mapa de punts i mapa de calor  
+6. Exportació del mapa final com a imatge
 
 ## Resultats  
 La visualització mostra com encara hi ha molt camí per fer en la catalogació dels camins i senders com a GR i PR a Catalunya.
