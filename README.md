@@ -53,7 +53,7 @@ The project includes four thematic maps covering different spatial phenomena, ea
 The rest of the maps created during the challenge are included in the Maps section of the repo
 ## Maps developed
 The repo include the following subprojects:
-- Habitatges d'ús turístic de la ciutat de Barcelona / Day 1 - Points
+- Tourist housing in the city of Barcelona / Day 1 - Points
 - Flux de passatgers des de l'aeroport de Barcelona / Day 10 - Air
 - Senders GR i PR / Day 14 - OSM
 - Població d'Espanya / Day 25 - Hexagons
