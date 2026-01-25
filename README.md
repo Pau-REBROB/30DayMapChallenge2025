@@ -24,7 +24,7 @@ La resta de mapes desenvolupats al llarg del challenge estan inclosos a la secci
 El repositori inclou els següents subprojectes:
 - Habitatges d'ús turístic de la ciutat de Barcelona / Day 1 - Points
 - Flux de passatgers des de l'aeroport de Barcelona / Day 10 - Air
-- Senders GR i PR / Day 14 - OSM
+- Senders GR i PR a OSM / Day 14 - OSM
 - Població d'Espanya / Day 25 - Hexagons
 
 
@@ -55,5 +55,5 @@ The rest of the maps created during the challenge are included in the Maps secti
 The repo include the following subprojects:
 - Tourist housing in the city of Barcelona / Day 1 - Points
 - Flux de passatgers des de l'aeroport de Barcelona / Day 10 - Air
-- Senders GR i PR / Day 14 - OSM
+- GR and PR footpaths / Day 14 - OSM
 - Spain population / Day 25 - Hexagons
