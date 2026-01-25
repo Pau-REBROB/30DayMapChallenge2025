@@ -56,4 +56,4 @@ The repo include the following subprojects:
 - Tourist housing in the city of Barcelona / Day 1 - Points
 - Flux de passatgers des de l'aeroport de Barcelona / Day 10 - Air
 - Senders GR i PR / Day 14 - OSM
-- Població d'Espanya / Day 25 - Hexagons
+- Spain population / Day 25 - Hexagons
