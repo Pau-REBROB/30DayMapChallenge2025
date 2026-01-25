@@ -9,7 +9,7 @@ El projecte es centra en la visualització de dades espacials i l'anàlisi espac
 - Combinar metodologies de treball basades en SIG i en scripts
 ## Eines i tecnologies
 - QGIS
-- R (`sf`, `dplyr`, `ggplot2`)
+- R (`sf`, `dplyr`, `stringr`, `ggplot2`)
 - Open data (ICGC, INE, Openstreetmap, etc.)
 ## Metodologia
 - Adquisició de dades i preprocessament
@@ -25,7 +25,6 @@ El repositori inclou els següents subprojectes:
 - Habitatges d'ús turístic de la ciutat de Barcelona / Day 1 - Points
 - Flux de passatgers des de l'aeroport de Barcelona / Day 10 - Air
 - Senders GR i PR / Day 14 - OSM
-- Estat dels embassaments a Catalunya / Day 20 - Water 
 - Població d'Espanya / Day 25 - Hexagons
 
 
@@ -41,7 +40,7 @@ The project focuses on spatial data visualization and exploratory spatial analys
 - Combine scripting-based and GIS-based workflows
 ## Tools and technologies
 - QGIS
-- R (`sf`, `dplyr`, `ggplot2`)
+- R (`sf`, `dplyr`, `stringr`, `ggplot2`)
 - Open spatial data (OpenStreetMap, ICGC, INE, etc.)
 ## Workflow
 - Data acquisition and preprocessing
@@ -57,5 +56,4 @@ The repo include the following subprojects:
 - Habitatges d'ús turístic de la ciutat de Barcelona / Day 1 - Points
 - Flux de passatgers des de l'aeroport de Barcelona / Day 10 - Air
 - Senders GR i PR / Day 14 - OSM
-- Estat dels embassaments a Catalunya / Day 20 - Water 
 - Població d'Espanya / Day 25 - Hexagons
